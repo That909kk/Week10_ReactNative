@@ -8,7 +8,7 @@
 <h1>Thư mục img</h1>
 <p>chứa hình ảnh minh chứng bài tập được làm trên lớp thực hành buổi sáng ngày 1/11/2024 tiết 1-3 </p>
 <h3>Chú ý:</h3>
-+<p>Có sự tham khảo từ AI : Chat GPT, GithubCopilot</p>
-+<p>Có sự tham khảo từ https://viblo.asia/ </p>
-+<p>Được thực hiện trên Expo: https://expo.dev/</p>
+<p>+ Có sự tham khảo từ AI : Chat GPT, GithubCopilot</p>
+<p>+ Có sự tham khảo từ https://viblo.asia/ </p>
+<p>+ Được thực hiện trên Expo: https://expo.dev/</p>
 
