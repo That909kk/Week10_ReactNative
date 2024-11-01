@@ -49,9 +49,17 @@ const TodoApp = () => {
 
   return (
     <View>
-      <TextInput style={{height:30,borderWidth:2,borderRadius:5}} placeholder="Add or Edit To-Do" value={text} onChangeText={setText} />
+      <TextInput style={{
+        borderWidth:2,
+        height:40,
+        borderRadius:10,
+      }}  placeholder="Add or Edit To-Do" value={text} onChangeText={setText} />
       <Button title={editId ? "Update" : "Add"} onPress={handleAddOrUpdateTodo} />
-      <TextInput style={{height:30,borderWidth:2,borderRadius:5}} placeholder="Search To-Do" value={searchQuery} onChangeText={setSearchQuery} />
+      <TextInput  style={{
+        borderWidth:2,
+        height:40,
+        borderRadius:10,
+      }} placeholder="Search To-Do" value={searchQuery} onChangeText={setSearchQuery} />
       <FlatList
         data={filteredTodos}
         keyExtractor={(item) => item.id}
